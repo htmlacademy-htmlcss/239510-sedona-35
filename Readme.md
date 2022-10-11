@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Ян Павлович](https://up.htmlacademy.ru/htmlcss/35/user/239510).
-* Наставник: `Анна Вараксина`(https://htmlacademy.ru/profile/id153610).
+* Наставник: [Анна Вараксина](https://htmlacademy.ru/profile/id153610).
 
 ---
 
