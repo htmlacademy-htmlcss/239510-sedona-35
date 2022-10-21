@@ -1,0 +1,228 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+
+    background-color: #fff;
+    color: #000;
+}
+
+.page-header {
+    background-color: #fff;
+}
+
+.navigation-link {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.button .navigation-link  {
+    background: #756157;
+    border-radius: 4px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.navigation-list, .navigation-list-additional {
+    list-style-type: none;
+}
+
+.hero-block {
+    background-image: url("../images/index-background.jpeg");
+    background-color: #fff;
+    color: #000;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.advantages b {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    display: block;
+}
+
+.advantages > p {
+    text-align: center;
+}
+
+.advantages-list {
+    list-style-type: none;
+}
+
+.advantages-title {
+    color: #000;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28p;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.advantages-description {
+    color: #333333;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+
+.advantages-description-wrapper {
+    background-color: #82B3D3;
+    text-align: center;
+}
+
+.advantages-description-wrapper .advantages-title {
+    background-color: #82B3D3;
+    color: #fff;
+    font-weight: 700px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+
+
+.advantages-description-wrapper .advantages-description {
+    color: #fff;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.lightblue-background {
+    background-color: rgba(131, 179, 211, 0.12);
+}
+
+.blue-background {
+    background-color: rgba(131, 179, 211, 0.2);
+}
+
+.recommendations-list {
+    text-align: center;
+}
+
+.recommendations-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.recommendations-description {
+    color: #333333;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.book-hotel {
+    text-align: center;
+}
+
+.book-hotel b {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.book-hotel p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+}
+
+
+.find-hotel-button {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background: #756157;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.newsletter-subscription {
+    background-image: url("../images/newsletter-background.jpeg");
+    background-color: #000000;
+    background-size: 100% auto;
+    color: #ffffff;
+    text-align: center;
+}
+
+.newsletter-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.newsletter-promise {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.email-form {
+    width: 452px;
+    height: 52px;
+    background: #F2F2F2;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.form-submit-button {
+    background: #82B3D3;
+    border-radius: 0px 4px 4px 0px;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.contact-phone {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+
+.social-button {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
