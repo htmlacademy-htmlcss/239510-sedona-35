@@ -23,6 +23,9 @@ body {
     font-size: 22px;
     line-height: 26px;
 
+    margin: 0;
+    padding: 0;
+
     background-color: #F2F2F2;
     color: #000;
 
@@ -99,6 +102,12 @@ body {
     margin: 0 auto;
 }
 
+.sedona-description {
+    padding-top: 166px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
 .advantages b {
     font-size: 30px;
     line-height: 36px;
@@ -112,6 +121,19 @@ body {
 
 .advantages-list {
     list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.advantages-item {
+    width: 400px;
+    height: 384px;
+
+}
+
+.advantages-picture {
 
 }
 
@@ -122,6 +144,7 @@ body {
     line-height: 28p;
     text-align: center;
     text-transform: uppercase;
+    padding-top: 92px;
 }
 
 .advantages-description {
@@ -161,8 +184,18 @@ body {
 
 }
 
+
 .recommendations-list {
     text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.recommendations-item {
+    width: 400px;
+    height: 384px;
 }
 
 .recommendations-title {
@@ -208,6 +241,7 @@ body {
     background: #756157;
     border-radius: 4px;
     text-decoration: none;
+    padding: 8px 50px;
 }
 
 .newsletter-subscription {
@@ -248,6 +282,19 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    padding: 8px 50px;
+}
+
+.page-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-social-list {
+    list-style-type: none;
+    display: flex;
+    width: 142px;
 }
 
 .contact-phone {
@@ -258,6 +305,7 @@ body {
     text-transform: uppercase;
     color: #000000;
     text-decoration: none;
+    width: 331px;
 }
 
 .social-button {
