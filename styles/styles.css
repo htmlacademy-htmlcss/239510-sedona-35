@@ -14,17 +14,40 @@
     font-display: swap;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 22px;
     line-height: 26px;
 
-    background-color: #fff;
+    background-color: #F2F2F2;
     color: #000;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.page-container {
+    background-color: #FFF;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .page-header {
     background-color: #fff;
+}
+
+.main-container {
+    flex-grow: 1;
+}
+
+.navigation {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .navigation-link {
@@ -50,10 +73,18 @@ body {
     text-align: center;
 }
 
-.navigation-list,
-.navigation-list-additional {
+.navigation-list {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 339px;
 }
+
+.navigation-list-additional {
+    width: 268px;
+    margin-left: auto;
+}
+
 
 .hero-block {
     background-image: url("../images/index-background.jpeg");
@@ -61,6 +92,11 @@ body {
     color: #000;
     background-repeat: no-repeat;
     background-size: 100% auto;
+}
+
+.welcome-sign {
+    display: block;
+    margin: 0 auto;
 }
 
 .advantages b {
@@ -76,6 +112,7 @@ body {
 
 .advantages-list {
     list-style-type: none;
+
 }
 
 .advantages-title {
@@ -94,7 +131,7 @@ body {
     text-align: center;
 }
 
-.advantages-description-wrapper
+.darkblue-background
 .advantages-title {
     color: #fff;
     font-weight: 700px;
@@ -104,7 +141,7 @@ body {
 
 
 
-.advantages-description-wrapper
+.darkblue-background
 .advantages-description {
     color: #fff;
     font-size: 18px;
