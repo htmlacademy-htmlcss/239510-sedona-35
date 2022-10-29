@@ -97,6 +97,10 @@ body {
     background-size: 100% auto;
 }
 
+.hero-block svg {
+    padding-bottom: 0;
+}
+
 .welcome-sign {
     display: block;
     margin: 0 auto;
@@ -199,6 +203,8 @@ body {
 }
 
 .recommendations-title {
+    display: block;
+    padding-top: 182px;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 24px;
