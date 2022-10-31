@@ -23,20 +23,21 @@ body {
     font-size: 22px;
     line-height: 26px;
 
+
     margin: 0;
     padding: 0;
 
     background-color: #F2F2F2;
     color: #000;
-
-    display: flex;
-    flex-direction: column;
 }
 
 .page-container {
     background-color: #FFF;
     width: 1200px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 .page-header {
@@ -49,7 +50,6 @@ body {
 
 .navigation {
     display: flex;
-    width: 1200px;
     margin: 0 auto;
 }
 
@@ -90,7 +90,8 @@ body {
 
 
 .hero-block {
-    background-image: url("../images/index-background.jpeg");
+    background-image: url("../images/divider.svg"), url("../images/index-background.jpeg");
+    background-position: bottom, center;
     background-color: #82B3D3;
     color: #000;
     background-repeat: no-repeat;
@@ -130,13 +131,25 @@ body {
 
 .advantages-item {
     width: 400px;
-    height: 384px;
+    min-height: 384px;
 
 }
 
-.advantages-picture {
+.advantages-item.darkblue-background {
+    width: 100%;
+    min-height: 384px;
+    display: flex;
+    justify-content: space-between;
 
 }
+
+.advantages-container {
+    padding-right: 85px;
+    padding-left: 85px;
+    width: 230px;
+}
+
+
 
 .advantages-title {
     color: #000;
@@ -154,6 +167,11 @@ body {
     line-height: 21px;
     text-align: center;
 }
+
+.advantages-container p {
+    width: 230px;
+}
+
 
 .darkblue-background
 .advantages-title {
@@ -196,7 +214,7 @@ body {
 
 .recommendations-item {
     width: 400px;
-    height: 384px;
+    min-height: 384px;
 }
 
 .recommendations-title {
