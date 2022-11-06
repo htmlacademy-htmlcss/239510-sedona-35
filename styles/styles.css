@@ -71,7 +71,7 @@ body {
     text-align: center;
     padding: 20px 16px;
     display: block;
-    flex-wrap: wrap;
+
 
 }
 
@@ -93,6 +93,7 @@ body {
     margin: 0;
     padding: 0;
     width: 469px;
+    flex-wrap: wrap;
 }
 
 .navigation-list-additional {
@@ -337,14 +338,17 @@ body {
 
 .page-footer {
     display: flex;
-    justify-content: space-around;
+    padding: 40px 70px 30px 70px;
+    width: 1060px;
+    justify-content: space-between;
     align-items: center;
 }
 
 .footer-social-list {
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
     display: flex;
-    flex-wrap: wrap;
     width: 142px;
 }
 
@@ -357,10 +361,6 @@ body {
     color: #000000;
     text-decoration: none;
     width: 331px;
-    margin-top: 45px;
-    margin-bottom: 35px;
-    margin-left: 195px;
-    margin-right: 195px;
 }
 
 .social-button {
@@ -375,9 +375,6 @@ body {
 
 .htmlacademy-logo {
     display: inline-block;
-    margin-top: 49px;
-    margin-right: 70px;
-    margin-bottom: 39px;
 }
 
 .visually-hidden {
