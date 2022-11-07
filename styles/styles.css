@@ -24,6 +24,7 @@ body {
     line-height: 26px;
 
 
+
     margin: 0;
     padding: 0;
 
@@ -42,15 +43,22 @@ body {
 
 .page-header {
     background-color: #fff;
+    display: flex;
 }
 
 .main-container {
     flex-grow: 1;
 }
 
+.logo {
+    display: block;
+    margin-left: 70px;
+}
+
 .navigation {
     display: flex;
     margin: 0 auto;
+    margin-left: 30px;
 }
 
 .navigation-link {
@@ -61,6 +69,9 @@ body {
     color: #000;
     text-decoration: none;
     text-align: center;
+    padding: 20px 16px;
+    display: block;
+
 
 }
 
@@ -77,10 +88,12 @@ body {
 }
 
 .navigation-list {
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 339px;
+    width: 469px;
+    flex-wrap: wrap;
 }
 
 .navigation-list-additional {
@@ -96,18 +109,26 @@ body {
     color: #000;
     background-repeat: no-repeat;
     background-size: 100% auto;
+    padding-top: 51px;
+    padding-bottom: 82px;
+
 }
 
 
 .welcome-sign {
     display: block;
     margin: 0 auto;
+
 }
 
 .sedona-description {
-    padding-top: 166px;
+    padding-top: 69px;
     padding-bottom: 90px;
     text-align: center;
+}
+
+.sedona-description b {
+    text-transform: uppercase;
 }
 
 .advantages b {
@@ -224,6 +245,7 @@ body {
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
+    padding-bottom: 30px;
 }
 
 .recommendations-description {
@@ -235,6 +257,8 @@ body {
 
 .book-hotel {
     text-align: center;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .book-hotel b {
@@ -249,6 +273,7 @@ body {
     font-size: 22px;
     line-height: 26px;
     color: #333333;
+    margin-bottom: 54px;
 }
 
 
@@ -263,6 +288,7 @@ body {
     border-radius: 4px;
     text-decoration: none;
     padding: 8px 50px;
+    display: inline-block;
 }
 
 .newsletter-subscription {
@@ -271,6 +297,8 @@ body {
     background-size: 100% auto;
     color: #ffffff;
     text-align: center;
+    padding-top: 96px;
+    padding-bottom: 104px;
 }
 
 .newsletter-title {
@@ -284,6 +312,7 @@ body {
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
+    margin-bottom: 54px;
 }
 
 .email-form {
@@ -291,6 +320,7 @@ body {
     height: 52px;
     background: #F2F2F2;
     border-radius: 4px 0 0 4px;
+    border: 0;
 }
 
 .form-submit-button {
@@ -308,12 +338,16 @@ body {
 
 .page-footer {
     display: flex;
-    justify-content: space-around;
+    padding: 40px 70px 30px 70px;
+    width: 1060px;
+    justify-content: space-between;
     align-items: center;
 }
 
 .footer-social-list {
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
     display: flex;
     width: 142px;
 }
@@ -333,4 +367,23 @@ body {
     text-decoration: none;
     color: #000000;
     text-transform: uppercase;
+    padding: 13px 12px;
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
+
+
+.htmlacademy-logo {
+    display: inline-block;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
